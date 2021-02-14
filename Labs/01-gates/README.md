@@ -5,6 +5,7 @@ https://www.edaplayground.com/x/8NnS
 
 ### Verification of De Morgan's laws
 
+##### Source code
 ```vhdl
 architecture dataflow of gates is
 begin
@@ -13,10 +14,10 @@ begin
     fnor_o <= (a_i NOR (NOT c_i)) NOR b_i;
 end architecture dataflow;
 ```
-
+##### Simulation
 ![De Morgan's law simulation](/Images/demorgan.PNG)
 
-
+##### Table with logical values
 | **c** | **b** |**a** | **f(c,b,a)** | **fnand(c,b,a)** | **fnor(c,b,a)** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 | 1 | 1 | 1 |
@@ -31,6 +32,7 @@ end architecture dataflow;
 
 ### Verification of Distributive laws
 
+##### Source code
 ```vhd1
 architecture dataflow of gates is
 begin
@@ -41,9 +43,12 @@ begin
 
 end architecture dataflow;
 ```
+
+##### Simulation
 ![Distributive laws similation](/Images/disctric.PNG)
 
-### 
+##### Table with logical values
+
 | **c** | **b** |**a** | **fdist1(c,b,a)** | **fdist1.1(c,b,a)** | **fdist2(c,b,a)** | **fdist2.1(c,b,a)** |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
