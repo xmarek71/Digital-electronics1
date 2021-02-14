@@ -1,3 +1,3 @@
-https://www.edaplayground.com/x/5L92
+https://www.edaplayground.com/x/8NnS
 
-![De Morgan's law](Digital-electronics1/Images/demorgan.PNG)
+![De Morgan's law](/Images/demorgan.PNG)
