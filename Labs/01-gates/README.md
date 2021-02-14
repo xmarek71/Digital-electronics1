@@ -9,7 +9,7 @@ https://www.edaplayground.com/x/8NnS
 ```vhd1
 architecture dataflow of gates is
 begin
-    f_o <= ((NOT b_i) AND a_i) OR ((NOT c_i) AND (NOT b_i));
+    f_o <= ((not b_i) and a_i) OR ((NOT c_i) AND (NOT b_i));
     fnand_o <= (a_i NAND (NOT b_i)) NAND ((NOT b_i) NAND (NOT c_i));
     fnor_o <= (a_i NOR (NOT c_i)) NOR b_i;
 end architecture dataflow;
