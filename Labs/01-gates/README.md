@@ -5,7 +5,6 @@ https://www.edaplayground.com/x/8NnS
 
 ### Verification of De Morgan's laws
 
-**source code**
 ```vhdl
 architecture dataflow of gates is
 begin
