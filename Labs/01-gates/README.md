@@ -14,7 +14,7 @@ begin
 end architecture dataflow;
 ```
 
-![De Morgan's law](/Images/demorgan.PNG)
+![De Morgan's law simulation](/Images/demorgan.PNG)
 
 ### Verification of Distributive laws
 
@@ -28,3 +28,4 @@ begin
 
 end architecture dataflow;
 ```
+![Distributive laws similation](/Images/disctric.PNG)
