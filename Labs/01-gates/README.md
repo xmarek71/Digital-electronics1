@@ -16,6 +16,19 @@ end architecture dataflow;
 
 ![De Morgan's law simulation](/Images/demorgan.PNG)
 
+
+| **c** | **b** |**a** | **f(c,b,a)** | **fnand(c,b,a)** | **fnor(c,b,a)** |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| 0 | 0 | 0 | 1 | 1 | 1 |
+| 0 | 0 | 1 | 1 | 1 | 1 |
+| 0 | 1 | 0 | 0 | 0 | 0 |
+| 0 | 1 | 1 | 0 | 0 | 0 |
+| 1 | 0 | 0 | 0 | 0 | 0 |
+| 1 | 0 | 1 | 1 | 1 | 1 |
+| 1 | 1 | 0 | 0 | 0 | 0 |
+| 1 | 1 | 1 | 0 | 0 | 0 |
+
+
 ### Verification of Distributive laws
 
 ```vhd1
@@ -29,3 +42,15 @@ begin
 end architecture dataflow;
 ```
 ![Distributive laws similation](/Images/disctric.PNG)
+
+### 
+| **c** | **b** |**a** | **fdist1(c,b,a)** | **fdist1.1(c,b,a)** | **fdist2(c,b,a)** | **fdist2.1(c,b,a)** |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 1 | 0 | 0 | 1 | 1 |
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 1 | 1 | 1 | 1 | 1 | 1 |
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 1 | 0 | 1 | 1 | 1 | 1 | 1 |
+| 1 | 1 | 0 | 0 | 0 | 1 | 1 |
+| 1 | 1 | 1 | 1 | 1 | 1 | 1 |
