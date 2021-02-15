@@ -35,11 +35,12 @@ end architecture dataflow;
 ### Verification of Distributive laws
 
 ##### Source code
-```vhd1
+```vhdl
 architecture dataflow of gates is
 begin
     f_dist1 <= (a_i AND b_i) OR (a_i AND c_i);
     f_dist11 <= a_i AND ( b_i OR c_i );
+    
     f_dist2 <= ( a_i OR b_i ) AND ( a_i OR c_i );
     f_dist21 <= a_i OR ( b_i AND c_i );
 
