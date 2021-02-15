@@ -3,6 +3,8 @@
 
 https://www.edaplayground.com/x/8NnS
 
+https://github.com/xmarek71/Digital-electronics1
+
 ### Verification of De Morgan's laws
 
 ##### Source code
