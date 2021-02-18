@@ -1,7 +1,11 @@
 
 # Cvičenie 2
 
+### 2-bit comparator
 https://www.edaplayground.com/x/k7HT
+
+### 4-bit comparator
+https://www.edaplayground.com/x/Zs7D
 
 | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
