@@ -54,3 +54,6 @@ https://www.edaplayground.com/x/Zs7D
 | **01** | 0 | 0 | 1 | 1 |
 | **11** | 0 | 0 | 0 | 0 |
 | **10** | 0 | 0 | 1 | 0 |
+
+
+![Simulator console output](/Images/4-bit.PNG)
