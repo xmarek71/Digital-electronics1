@@ -4,9 +4,6 @@
 #### 2-bit comparator
 https://www.edaplayground.com/x/k7HT
 
-#### 4-bit comparator
-https://www.edaplayground.com/x/Zs7D
-
 #### 2-bit comparator truth table
 
 | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
@@ -55,5 +52,9 @@ https://www.edaplayground.com/x/Zs7D
 | **11** | 0 | 0 | 0 | 0 |
 | **10** | 0 | 0 | 1 | 0 |
 
+## 4-bit binary comparator
+
+#### Link
+https://www.edaplayground.com/x/Zs7D
 
 ![Simulator console output](/Images/4-bit.PNG)
