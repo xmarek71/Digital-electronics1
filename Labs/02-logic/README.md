@@ -1,11 +1,13 @@
 
 # Cvičenie 2
 
-### 2-bit comparator
+#### 2-bit comparator
 https://www.edaplayground.com/x/k7HT
 
-### 4-bit comparator
+#### 4-bit comparator
 https://www.edaplayground.com/x/Zs7D
+
+#### 2-bit comparator truth table
 
 | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -26,7 +28,7 @@ https://www.edaplayground.com/x/Zs7D
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
-#### Map for B is greater than A
+#### Karnaug map for B is greater than A
 
 |  | **00** | **01** | **11** | **10** |
 | :-: | :-: | :-: | :-: | :-: |
@@ -35,7 +37,7 @@ https://www.edaplayground.com/x/Zs7D
 | **11** | 1 | 1 | 0 | 1 |
 | **10** | 1 | 1 | 0 | 0 |
 
-#### Map for B equals A
+#### Karnaug map for B equals A
 
 |  | **00** | **01** | **11** | **10** |
 | :-: | :-: | :-: | :-: | :-: |
@@ -44,7 +46,7 @@ https://www.edaplayground.com/x/Zs7D
 | **11** | 0 | 0 | 1 | 0 |
 | **10** | 0 | 0 | 0 | 1 |
 
-#### Map for B is less than A
+#### Karnaug map for B is less than A
 
 |  | **00** | **01** | **11** | **10** |
 | :-: | :-: | :-: | :-: | :-: |
