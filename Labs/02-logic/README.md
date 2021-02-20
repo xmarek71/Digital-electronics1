@@ -25,15 +25,15 @@ https://www.edaplayground.com/x/k7HT
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
-#### Karnaug map for B is greater than A
+#### Karnaugh map for B is greater than A
 
 ![B is greater than A](/Images/greater.PNG)
 
-#### Karnaug map for B equals A
+#### Karnaugh map for B equals A
 
 ![B equals A](/Images/equals.PNG)
 
-#### Karnaug map for B is less than A
+#### Karnaugh map for B is less than A
 
 ![B is less than A](/Images/less.PNG)
 
