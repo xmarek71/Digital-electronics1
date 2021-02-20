@@ -27,25 +27,15 @@ https://www.edaplayground.com/x/k7HT
 
 #### Karnaug map for B is greater than A
 
-|  | **00** | **01** | **11** | **10** |
-| :-: | :-: | :-: | :-: | :-: |
-| **00** | 0 | 0 | 0 | 0 |
-| **01** | 1 | 0 | 0 | 0 |
-| **11** | 1 | 1 | 0 | 1 |
-| **10** | 1 | 1 | 0 | 0 |
+![B is greater than A](/Images/greater.PNG)
 
 #### Karnaug map for B equals A
 
-|  | **00** | **01** | **11** | **10** |
-| :-: | :-: | :-: | :-: | :-: |
-| **00** | 1 | 0 | 0 | 0 |
-| **01** | 0 | 1 | 0 | 0 |
-| **11** | 0 | 0 | 1 | 0 |
-| **10** | 0 | 0 | 0 | 1 |
+![B equals A](/Images/equals.PNG)
 
 #### Karnaug map for B is less than A
 
-![Less](/Images/less.PNG)
+![B is less than A](/Images/less.PNG)
 
 ## 4-bit binary comparator
 
