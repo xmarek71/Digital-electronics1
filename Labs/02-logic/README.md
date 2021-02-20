@@ -45,12 +45,7 @@ https://www.edaplayground.com/x/k7HT
 
 #### Karnaug map for B is less than A
 
-|  | **00** | **01** | **11** | **10** |
-| :-: | :-: | :-: | :-: | :-: |
-| **00** | 0 | 1 | 1 | 1 |
-| **01** | 0 | 0 | 1 | 1 |
-| **11** | 0 | 0 | 0 | 0 |
-| **10** | 0 | 0 | 1 | 0 |
+![Less](/Images/less.PNG)
 
 ## 4-bit binary comparator
 
