@@ -91,7 +91,7 @@ p_stimulus : process
 		assert ((s_B_greater_A = '0') and (s_B_equals_A = '0') and (s_B_less_A = '1'))
 		report "Test failed for input combination: 0000, 0100" severity error;
 
-      s_b <= "0000"; s_a <= "0101"; wait for 100 ns;
+      		s_b <= "0000"; s_a <= "0101"; wait for 100 ns;
 		assert ((s_B_greater_A = '0') and (s_B_equals_A = '0') and (s_B_less_A = '1'))
 		report "Test failed for input combination: 0000, 0101" severity error;
 
