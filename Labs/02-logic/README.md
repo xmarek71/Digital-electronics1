@@ -37,8 +37,11 @@ https://www.edaplayground.com/x/k7HT
 
 ![B is less than A](/Images/less.PNG)
 
-
+#### Equations of simplified SoP form of the "greater than" function and simplified PoS form of the "less than" function
 ![rovnice](/Images/greatless.gif)
+
+
+
 ## 4-bit binary comparator
 
 #### Link
