@@ -28,7 +28,7 @@ https://www.edaplayground.com/x/k7HT
 #### Canonical SoP (Sum of Products) and PoS (Product of Sums) forms for "equals" and "less than" functions
 
 ![equalsSOP](/Images/equalsSOP.PNG)
-![lessPOS](/Images/lessPOS.PNG)
+![lessPOS](/Images/lessPOS.png)
 
 #### Karnaugh map for B is greater than A
 
