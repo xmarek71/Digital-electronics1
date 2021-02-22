@@ -37,6 +37,8 @@ https://www.edaplayground.com/x/k7HT
 
 ![B is less than A](/Images/less.PNG)
 
+
+![rovnice](/Images/greatless.gif)
 ## 4-bit binary comparator
 
 #### Link
