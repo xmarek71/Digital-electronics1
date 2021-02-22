@@ -1,6 +1,8 @@
 
 # Cvičenie 2
 
+https://github.com/xmarek71/Digital-electronics1/
+
 #### 2-bit comparator
 https://www.edaplayground.com/x/k7HT
 
