@@ -80,3 +80,7 @@ p_stimulus : process
 ![XDC](/Images/lab3/XDC1.png)
 ![XDC](/Images/lab3/XDC2.PNG)
 ![XDC](/Images/lab3/XDC3.PNG)
+
+### Running simulation
+
+![Simulation](/Images/lab3/simulation.png)
