@@ -63,3 +63,9 @@ p_stimulus : process
 ![sources](/Images/lab3/sources.png)
 ![boards](/Images/lab3/boards.png)
 ![module](/Images/lab3/module.png)
+
+#### Adding testbench file
+
+![TB](/Images/lab3/testbench.png)
+![TB](/Images/lab3/testsources.png)
+![TB](/Images/lab3/testsim.png)
