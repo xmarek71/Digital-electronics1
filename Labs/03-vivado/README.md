@@ -55,7 +55,7 @@ p_stimulus : process
 
 ### Vivado tutorial
 
-#### Project creation tutorial
+### Project creation tutorial
 
 ![create](/Images/lab3/create.png)
 ![name](/Images/lab3/name.PNG)
@@ -64,7 +64,7 @@ p_stimulus : process
 ![boards](/Images/lab3/boards.png)
 ![module](/Images/lab3/module.png)
 
-#### Adding testbench file
+### Adding testbench file
 
 ![TB](/Images/lab3/testbench.png)
 ![TB](/Images/lab3/testsources.png)
