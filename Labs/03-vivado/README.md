@@ -58,8 +58,8 @@ p_stimulus : process
 #### Project creation tutorial
 
 ![create](/Images/lab3/create.png)
-![name](/Images/lab3/name.png)
-![type](/Images/lab3/type.png)
+![name](/Images/lab3/name.PNG)
+![type](/Images/lab3/type.PNG)
 ![sources](/Images/lab3/sources.png)
 ![boards](/Images/lab3/boards.png)
 ![module](/Images/lab3/module.png)
