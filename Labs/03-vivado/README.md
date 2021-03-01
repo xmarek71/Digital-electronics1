@@ -66,10 +66,17 @@ p_stimulus : process
 
 
 
-### Adding testbench file
+### Adding of testbench file
 
 ##### Use File > Add Sources Alt+A > Add or create simulation sources and create a new VHDL file with same name and prefix "tb_"
 
 ![TB](/Images/lab3/testbench.png)
 ![TB](/Images/lab3/testsources.png)
 ![TB](/Images/lab3/testsim.png)
+
+
+### Adding of XDC constraints file
+
+![XDC](/Images/lab3/XDC1.png)
+![XDC](/Images/lab3/XDC2.PNG)
+![XDC](/Images/lab3/XDC3.PNG)
