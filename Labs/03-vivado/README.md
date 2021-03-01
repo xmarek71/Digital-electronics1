@@ -68,7 +68,7 @@ p_stimulus : process
 
 ### Adding testbench file
 
-
+##### Use File > Add Sources Alt+A > Add or create simulation sources and create a new VHDL file with same name and prefix "tb_"
 
 ![TB](/Images/lab3/testbench.png)
 ![TB](/Images/lab3/testsources.png)
