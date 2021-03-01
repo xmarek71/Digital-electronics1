@@ -1,4 +1,4 @@
-# Cvičenie 2
+# Cvičenie 3
 
 https://github.com/xmarek71/Digital-electronics1/
 
