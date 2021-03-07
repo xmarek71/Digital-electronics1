@@ -219,4 +219,4 @@ end architecture Behavoral;
 ![Waveforms](/Images/lab4/tb_top.PNG)
 
 #### Schematic
-![schematic.pdf](http://xmarek71.github.io/Digital-electronics1/Images/lab4/schematic.pdf)
+![Schema](/Images/lab4/schematic.PNG)
