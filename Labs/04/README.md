@@ -117,6 +117,80 @@ p_stimulus : process
 ````
 
 #### Simulated time waveforms
+![Waveforms](/Images/lab4/tb_hex.PNG)
+
+#### VHDL code from source file top.vhd
+````vhdl
+architecture Behavioral of top1 is
+begin
+
+hex2seg : entity work.hex_7seg
+    port map(
+        hex_i  =>   SW,
+        seg_o(6)  =>    CA,
+        seg_o(5)  =>    CB,
+        seg_o(4)  =>    CC,
+        seg_o(3)  =>    CD,
+        seg_o(2)  =>    CE,
+        seg_o(1)  =>    CF,
+        seg_o(0)  =>    CG
+    );
+    
+    AN <= "11110111";
+    LED(3 downto 0) <= SW;
+    LED(4)  <= '1' when (SW = "0000") else '0';
+    LED(5)  <= '1' when (SW > "1001") else '0';
+    LED(6)  <= '1' when (SW = "0001" or SW = "0011" or SW = "0101" or SW = "0111" or SW = "1001" or SW = "1011" or SW = "1101" or SW = "1111") else '0';
+    LED(7)  <= '1' when (SW = "0001" or SW = "0010" or SW = "0100" or SW = "1000") else '0';
+    
+end Behavioral;
+````
+#### VHDL stimulus process from testbench file tb_top.vhd
+
+````vhdl 
+    p_stimulus : process
+    begin
+        report "Stimulus process started" severity note;
+
+        s_hex <= "0000";
+        wait for 100 ns;
+        s_hex <= "0001";
+        wait for 100 ns;
+        s_hex <= "0010";
+        wait for 100 ns;
+        s_hex <= "0011";
+        wait for 100 ns;
+        s_hex <= "0100";
+        wait for 100 ns;
+        s_hex <= "0101";
+        wait for 100 ns;
+        s_hex <= "0110";
+        wait for 100 ns;
+        s_hex <= "0111";
+        wait for 100 ns;
+        s_hex <= "1000";
+        wait for 100 ns;
+        s_hex <= "1001";
+        wait for 100 ns;
+        s_hex <= "1010";
+        wait for 100 ns;
+        s_hex <= "1011";
+        wait for 100 ns;
+        s_hex <= "1100";
+        wait for 100 ns;
+        s_hex <= "1101";
+        wait for 100 ns;
+        s_hex <= "1110";
+        wait for 100 ns;
+        s_hex <= "1111";
+        wait for 100 ns;
+
+        report "Stimulus process finished" severity note;
+        wait;
+    end process p_stimulus;
+    
+end architecture Behavoral;
+````
 
 
 ## LED(7:4) indicators
@@ -140,3 +214,9 @@ p_stimulus : process
 | d | 1101 | 0 | 1 | 0 | 0 |
 | E | 1110 | 0 | 1 | 0 | 0 |
 | F | 1111 | 0 | 1 | 0 | 0 |
+
+#### Simulated time waveforms for tb_top
+![Waveforms](/Images/lab4/tb_top.PNG)
+
+#### Schematic
+<a href="/Images/lab4/schematic.pdf" class="image fit"><img alt=""></a>
