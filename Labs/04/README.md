@@ -3,6 +3,24 @@
 
 #### Truth table for common anode 7-segment display
 
+| **Name** | **Port** |**Function** |
+| :-: | :-: | :-: | 
+| T10 | CA | A | 
+| R10 | CB | B |
+| K16 | CC | C |
+| K13 | CD | D |
+| P15 | CE | E |
+| T11 | CF | F |
+| L18 | CG | G |
+| J17 | AN[0] | KAT 1 |
+| J18 | AN[1] | KAT 2 |
+| T9 | AN[2] | KAT 3 |
+| J14 | AN[3] | KAT 4 |
+| P14 | AN[4] | KAT 5 |
+| T14 | AN[5] | KAT 6 |
+| K2 | AN[6] | KAT 7 |
+| U13 | AN[7] | KAT 8 |
+
 | **Hex** | **Inputs** | **A** | **B** | **C** | **D** | **E** | **F** | **G** |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0000 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
