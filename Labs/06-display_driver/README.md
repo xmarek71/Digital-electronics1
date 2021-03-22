@@ -3,7 +3,7 @@
 
 #### Timing diagram figure for displaying value 3.142
 
-![Wavedrom](/Images/lab6/wavedrom.PNG)
+![Wavedrom](/Images/lab6/wavedrom.png)
 
 ## Display driver
 
@@ -183,4 +183,4 @@ end architecture Behavioral;
 
 #### Image of the driver schematic
 
-![Schema](/Images/lab6/schema.PNG)
+![Schema](/Images/lab6/schema.png)
