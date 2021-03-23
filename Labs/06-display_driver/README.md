@@ -116,10 +116,30 @@ begin
     begin
         report "Stimulus process started" severity note;
 
+        report "Test1" severity note;
         s_data3 <= "0011";
+        wait for 10 ns;
+        assert (s_seg_o = "0000110")
+        report "Test failed" severity error;
+        
+        report "Test2" severity note;
         s_data2 <= "0001";
+        wait for 10 ns;
+        assert (s_seg_o = "1001111")
+        report "Test failed" severity error; 
+        
+        report "Test3" severity note;
         s_data1 <= "0100";
-        s_data0 <= "0010";     
+        wait for 10 ns;
+        assert (s_seg_o = "1001100")
+        report "Test failed" severity error; 
+        
+        report "Test4" severity note;
+        s_data0 <= "0010";
+        wait for 10 ns;
+        assert (s_seg_o = "0010010")
+        report "Test failed" severity error; 
+               
         s_dp_i <= "0111";
 
         report "Stimulus process finished" severity note;
@@ -152,7 +172,7 @@ begin
             data1_i(0) => SW(4),
             
             data2_i(3) => SW(11),
-            data2_i(2) => SW(11),
+            data2_i(2) => SW(10),
             data2_i(1) => SW(9),
             data2_i(0) => SW(8),
             
