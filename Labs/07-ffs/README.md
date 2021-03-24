@@ -27,8 +27,8 @@
 
    | T | Qn | Q(n+1) | Comments |
    | :-: | :-: | :-: | :-- |
-   | 0 | 0 | 0 | Pamatanie |
-   | 0 | 1 | 1 | Pamatanie |
+   | 0 | 0 | 0 | Pamat |
+   | 0 | 1 | 1 | Pamat |
    | 1 | 0 | 1 | Invertor |
    | 1 | 1 | 0 | Invertor |
    
