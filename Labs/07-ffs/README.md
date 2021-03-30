@@ -72,9 +72,6 @@ end process p_d_latch;
         s_d <= '0';
         s_en <= '0';
         
-        assert (s_q = '0')
-        report "asdfadf" severity error;
-        
         wait for 10 ns;
         s_d <= '1';
         wait for 10 ns;
@@ -259,8 +256,6 @@ t_ff_rst : process (clk)
         s_d <= '0';
         
         wait for 6 ns;
-        --assert ()
-        --report "";
         
         wait for 4 ns;
         s_d <= '1';
@@ -317,8 +312,6 @@ p_reset : process
         s_d <= '0';
         
         wait for 6 ns;
-        --assert ()
-        --report "";
         
         wait for 4 ns;
         s_d <= '1';
@@ -436,7 +429,6 @@ p_reset : process
         wait for 15 ns;
         s_rst <= '1';
         wait for 15 ns;  
-        -- Reset activated
         s_rst <= '0';
         wait for 20 ns;
         s_rst <= '1';
@@ -459,8 +451,6 @@ p_reset : process
         s_t <= '0';
         
         wait for 6 ns;
-        --assert ()
-        --report "";
         
         wait for 4 ns;
         s_t <= '1';
