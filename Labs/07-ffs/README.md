@@ -141,7 +141,7 @@ end process p_d_latch;
 ````
 
 #### Screenshot with simulated time waveforms
-![Waveform](/Images/lab7/dlatch.png)
+![Waveform](/Images/lab7/dlatch.PNG)
 
 ## Flip-flops
 
@@ -483,15 +483,15 @@ p_reset : process
 ````
 
 #### Screenshot with simulated time waveforms of tb_d_ff_arst
-![Waveform](/Images/lab7/dffarst.png)
+![Waveform](/Images/lab7/dffarst.PNG)
 
 #### Screenshot with simulated time waveforms of tb_d_ff_rst
-![Waveform](/Images/lab7/dffrst.png)
+![Waveform](/Images/lab7/dffrst.PNG)
 
 #### Screenshot with simulated time waveforms of tb_jk_ff_rst
-![Waveform](/Images/lab7/jkffrst.png)
+![Waveform](/Images/lab7/jkffrst.PNG)
 
 #### Screenshot with simulated time waveforms of tb_t_ff_rst
-![Waveform](/Images/lab7/tffrst.png)
+![Waveform](/Images/lab7/tffrst.PNG)
 
-## Shift register]
+## Shift register
