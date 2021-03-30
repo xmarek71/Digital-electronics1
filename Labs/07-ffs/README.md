@@ -495,4 +495,4 @@ p_reset : process
 ![Waveform](/Images/lab7/tffrst.PNG)
 
 ## Shift register
-![Schema](/Images/lab7/schema.PNG)
+![Schema](/Images/lab7/schema.png)
