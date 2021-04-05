@@ -124,10 +124,19 @@
     end process p_output_fsm;
 ````
 #### Screenshot(s) of the simulation
+![Waveform](/Images/lab8/waveform1.PNG)
 
 ## Smart controller
 
 #### State table
+| **Current state** | **Direction South** | **Direction West** | **Delay** | **No Cars** | **Cars to West** | **Cars to South** | **Cars both directions** |
+| :-- | :-: | :-: | :-: |
+| `STOP1`      | red    | red | 1 sec | red | red | red | red |
+| `WEST_GO`    | red    | green | 4 sec | red | red | red | red |
+| `WEST_WAIT`  | red    | yellow | 2 sec | red | red | red | red |
+| `STOP2`      | red    | red | 1 sec | red | red | red | red |
+| `SOUTH_GO`   | green  | red | 4 sec | red | red | red | red |
+| `SOUTH_WAIT` | yellow | red | 2 sec | red | red | red | red |
 
 #### State diagram
 
