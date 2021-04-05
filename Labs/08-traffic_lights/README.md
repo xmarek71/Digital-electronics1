@@ -130,7 +130,7 @@
 
 #### State table
 | **Current state** | **Direction South** | **Direction West** | **Delay** | **No Cars** | **Cars to West** | **Cars to South** | **Cars both directions** |
-| :-- | :-: | :-: | :-: |
+| :-- | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | `STOP1`      | red    | red | 1 sec | red | red | red | red |
 | `WEST_GO`    | red    | green | 4 sec | red | red | red | red |
 | `WEST_WAIT`  | red    | yellow | 2 sec | red | red | red | red |
