@@ -131,12 +131,14 @@
 #### State table
 | **Current state** | **Direction South** | **Direction West** | **Delay** | **No Cars** | **Cars to West** | **Cars to South** | **Cars both directions** |
 | :-- | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| `STOP1`      | red    | red | 1 sec | red | red | red | red |
-| `WEST_GO`    | red    | green | 4 sec | red | red | red | red |
-| `WEST_WAIT`  | red    | yellow | 2 sec | red | red | red | red |
-| `STOP2`      | red    | red | 1 sec | red | red | red | red |
-| `SOUTH_GO`   | green  | red | 4 sec | red | red | red | red |
-| `SOUTH_WAIT` | yellow | red | 2 sec | red | red | red | red |
+| `STOP1`      | red    | red | 1 sec | `OPTION1` | `OPTION1` | `OPTION1` | `OPTION1` |
+| `WEST_GO`    | red    | green | 4 sec | `WEST_GO` | `WEST_GO` | `WEST_WAIT` | `WEST_WAIT` |
+| `WEST_WAIT`  | red    | yellow | 2 sec | `STOP2` | `STOP2` | `STOP2` | `STOP2` |
+| `STOP2`      | red    | red | 1 sec | `OPTION2` | `OPTION2` | `OPTION2` | `OPTION2` |
+| `SOUTH_GO`   | green  | red | 4 sec | `SOUTH_GO` | `SOUTH_WAIT` | `SOUTH_GO` | `SOUTH_WAIT` |
+| `SOUTH_WAIT` | yellow | red | 2 sec | `STOP1` | `STOP1` | `STOP1` | `STOP1` |
+| `OPTION1` | red | red | 0 sec | `WEST_GO` | `WEST_GO` | `SOUTH_GO` | `WEST_GO` |
+| `OPTION2` | red | red | 0 sec | `SOUTH_GO` | `WEST_GO` | `SOUTH_GO` | `SOUTH_GO` |
 
 #### State diagram
 
