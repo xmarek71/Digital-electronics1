@@ -21,6 +21,8 @@
 
 #### State diagram
 
+![Waveform](/Images/lab8/diagram1.PNG)
+
 #### Listing of VHDL code of sequential process p_traffic_fsm
 ````vhdl
     p_traffic_fsm : process(clk)
@@ -141,6 +143,8 @@
 | `OPTION2` | red | red | 0 sec | `SOUTH_GO` | `WEST_GO` | `SOUTH_GO` | `SOUTH_GO` |
 
 #### State diagram
+
+![Diagram](/Images/lab8/diagram2.PNG)
 
 #### Listing of VHDL code of sequential process p_smart_traffic_fsm
 ````vhdl
