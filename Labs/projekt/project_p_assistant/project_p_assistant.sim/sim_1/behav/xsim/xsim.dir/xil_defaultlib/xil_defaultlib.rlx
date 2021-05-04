@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/matka/project_p_assistant/project_p_assistant.srcs/sim_1/new/tb_hcsr04.vhd,1620065333,vhdl,,,,tb_hcsr04,,,,,,,,
+C:/matka/project_p_assistant/project_p_assistant.srcs/sources_1/new/clock_enable.vhd,1620065221,vhdl,C:/matka/project_p_assistant/project_p_assistant.srcs/sources_1/new/sound_signal.vhd,,,clock_enable,,,,,,,,
+C:/matka/project_p_assistant/project_p_assistant.srcs/sources_1/new/hcsr04.vhd,1620065197,vhdl,C:/matka/project_p_assistant/project_p_assistant.srcs/sim_1/new/tb_hcsr04.vhd,,,hcsr04,,,,,,,,
+C:/matka/project_p_assistant/project_p_assistant.srcs/sources_1/new/led_bar.vhd,1620065239,vhdl,C:/matka/project_p_assistant/project_p_assistant.srcs/sim_1/new/tb_hcsr04.vhd,,,led_bar,,,,,,,,
+C:/matka/project_p_assistant/project_p_assistant.srcs/sources_1/new/sound_signal.vhd,1620065252,vhdl,C:/matka/project_p_assistant/project_p_assistant.srcs/sim_1/new/tb_hcsr04.vhd,,,sound_signal,,,,,,,,

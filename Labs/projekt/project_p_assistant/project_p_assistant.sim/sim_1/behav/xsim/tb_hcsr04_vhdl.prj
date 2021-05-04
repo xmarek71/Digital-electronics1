@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_p_assistant.srcs/sources_1/new/clock_enable.vhd" \
+"../../../../project_p_assistant.srcs/sources_1/new/hcsr04.vhd" \
+"../../../../project_p_assistant.srcs/sources_1/new/led_bar.vhd" \
+"../../../../project_p_assistant.srcs/sources_1/new/sound_signal.vhd" \
+"../../../../project_p_assistant.srcs/sim_1/new/tb_hcsr04.vhd" \
+
+# Do not sort compile order
+nosort
